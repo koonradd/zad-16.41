@@ -39,15 +39,15 @@ module.exports = {
                     test: /\.js$/,
                     loader: "babel-loader"
                 },
-                {             {
-                            loader: 'css-loader',
-                            options: {
-                                modules: true
-                            }
-           
+                {
+                    loader: 'css-loader',
+                    options: {
+                    modules: true
+                },
+                {
                     test: /\.css$/,
                     use: [
-                        {loader: 'style-loader'},
+                    {loader: 'style-loader'},
                         }
                     ]
                 }
